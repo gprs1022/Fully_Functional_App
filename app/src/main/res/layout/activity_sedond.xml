@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:rowCount="4"
+    android:columnCount="2"
+    android:background="#3F51B5"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/android"
+        app:cardCornerRadius="80dp"
+
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:layout_margin="30dp"
+        android:backgroundTint="@color/purple_200">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ml" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Web"
+        app:cardCornerRadius="80dp"
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:layout_margin="30dp"
+        android:backgroundTint="@color/purple_200">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/web" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/ios"
+        app:cardCornerRadius="80dp"
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:layout_margin="30dp"
+        android:backgroundTint="@color/purple_200">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ios" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="120dp"
+        android:backgroundTint="@color/purple_200"
+        app:cardCornerRadius="80dp"
+        android:layout_height="130dp"
+
+        android:layout_margin="30dp"
+        android:id="@+id/ml">
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/android" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="120dp"
+        android:backgroundTint="@color/purple_200"
+        app:cardCornerRadius="80dp"
+        android:layout_height="130dp"
+
+        android:layout_margin="30dp"
+        android:id="@+id/block">
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/block" />
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="120dp"
+        android:backgroundTint="@color/purple_200"
+        app:cardCornerRadius="80dp"
+        android:layout_height="130dp"
+
+        android:layout_margin="30dp"
+        android:id="@+id/ai">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ai" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Call Us"
+        android:id="@+id/call"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/webView"
+        android:layout_marginTop="20dp"
+        android:text="Linkdin"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+
+</GridLayout>
